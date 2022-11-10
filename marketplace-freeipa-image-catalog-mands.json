@@ -1,0 +1,67 @@
+  {
+  "images": {
+    "freeipa-images": [
+      {    
+        "created": 1615210394,
+        "date": "2021-06-10",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "azure": {
+             "default" : "cloudera:cloudera-data-platform-cdp-7_2:freeipa:1.0.1623309566"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "4c9de617-26b6-404c-990d-a8b6578f74e4",
+        "package-versions": {
+          "salt": "3000.8",
+          "salt-bootstrap": "0.13.4-2020-09-30T15:03:43"
+        }
+      },
+	  {
+        "created": 1651064881,
+        "published": 1651067578,
+        "date": "2022-04-27",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "azure": {
+             "default" : "cloudera:cloudera-data-platform-cdp-7_2:freeipa:1.0.1651064876"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "47ed7ffb-25c0-406b-a2e1-5aadd8091bad",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "0.2.16",
+          "cdp-telemetry": "0.4.23",
+          "cloudbreak_images": "3cea690",
+          "freeipa-health-agent": "0.1-20220326020204gitb2ffef7",
+          "freeipa-plugin": "1.0-20200319002729gitc964030",
+          "inverting-proxy-agent": "2.0.7-b1",
+          "inverting-proxy-agent_gbn": "19813655",
+          "node-exporter": "1.3.1",
+          "salt": "3000.8",
+          "salt-bootstrap": "0.13.5-2021-10-27T13:19:36"
+        }
+      }
+   ]
+  },
+  "versions": {
+    "freeipa": [
+      {
+        "images": [
+          "4c9de617-26b6-404c-990d-a8b6578f74e4",
+		  "47ed7ffb-25c0-406b-a2e1-5aadd8091bad"
+        ],
+        "defaults": [
+          "4c9de617-26b6-404c-990d-a8b6578f74e4",
+		  "47ed7ffb-25c0-406b-a2e1-5aadd8091bad"
+        ],
+        "versions": [
+          "2.43.0-b51"
+        ]
+      }
+    ]
+  }
+}
